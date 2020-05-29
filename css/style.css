@@ -1,0 +1,33 @@
+/*..................................................Colours*/
+
+
+.col-md-8 {
+    background: orange;
+}
+
+
+/*.................................................Logo*/
+
+.col-md-4 logo {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    
+
+}
+
+/*..................................................Header*/
+
+.row no-gutters {
+    display: inline-block;
+    padding: 4 2 4 2;
+}
+
+.col-heading {
+    display: center;
+
+}
