@@ -26,17 +26,14 @@ header {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
+    
 }
-
 .menucontainer {
-    font-size: 0;
+font-size: 0;
 }
 
-.row no-gutters {
-   object-fit: fill;
-    contain: content;
-    position: relative;
-}
+
+
 #name-nav {
   
     text-align: center;
@@ -46,24 +43,60 @@ header {
 }
 
 #name-nav h1 {
-    font-size: 60px;
+    font-size: 120px;
     text-align: center;
+    font-weight: 600;
 }
+
 #nav li {
-   font-size: 18px;
+    font-size: 14px;
     padding: 0;
 }
+.menuitem {
+    height: 80px;
+    text-align: center;
+    padding: 0;
 
+}
 
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    height: 80px;
+}
+
+.menuitem a i {
+    padding-top: 48px;
+    display: block;
+    font-size: 24px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;    
+    font-weight: 400;
+}
 .address-info {
     display: inline-block;
     position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.address-info h3 {
+    text-align: center;
+    padding-top: 4px;
 }
 .col-md-4-contact-info {
     display: inline-block;
     text-align: center;
-    padding-left: 25px;
+    padding-left: 12px;
     position: relative;
+   
    
 }
 
@@ -78,8 +111,8 @@ header {
 #about-us {
       display: inline-block;
          position: relative;
-   width: 60%; 
     align-content: center;
+    width: 66%;
 }
 
 #about-us h2 {
@@ -95,7 +128,7 @@ header {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-    min-height: 160px;
+    min-height: 240px;
     
 
 
