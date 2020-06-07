@@ -12,16 +12,24 @@
     background-color:sandybrown;
 }
 
-#name {
+#name-nav {
 background-color:sandybrown;
 
 }
 
 /*...............................header*/
 
-#nav  {
-    padding: 0;
-    text-align: center;
+header {
+    margin: 0;
+   
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
 }
 
 .row no-gutters {
@@ -29,21 +37,23 @@ background-color:sandybrown;
     contain: content;
     position: relative;
 }
-#name {
-    font-size: 24px;
+#name-nav {
+  
     text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
+    min-height: 160px;
 }
 
+#name-nav h1 {
+    font-size: 60px;
+    text-align: center;
+}
 #nav li {
-    display: inline-block;
+   font-size: 18px;
     padding: 0;
 }
 
-.h1 {
-    font-size: 180px;
-}
 
 .address-info {
     display: inline-block;
@@ -54,9 +64,15 @@ background-color:sandybrown;
     text-align: center;
     padding-left: 25px;
     position: relative;
+   
 }
 
-
+#nav {
+    padding: 0;
+    position: relative;
+    min-height: 80px; 
+    align-content: center;
+}
 
 
 #about-us {
@@ -78,8 +94,9 @@ background-color:sandybrown;
     background: url(../assets/logo/pawsparlourlogo.jpg);
    background-position: center;
    background-repeat: no-repeat;
-   background-size: auto;
-    height: 50px;
+   background-size: cover;
+    min-height: 160px;
+    
 
 
 }
