@@ -24,9 +24,13 @@ background-color:sandybrown;
 
 header {
     margin: 0;
-   
+   width: 100%;
+  
 }
 
+.col-md-4 logo {
+    object-fit: cover;
+}
 .list-inline-item:not(:last-child) {
     margin: 0;
     
@@ -78,7 +82,7 @@ font-size: 0;
 .menuitem a i {
     padding-top: 48px;
     display: block;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .menuitem span {
@@ -87,11 +91,11 @@ font-size: 0;
     padding-top: 8px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;    
+    font-size: 24px;    
     font-weight: 400;
 }
-.address-info {
-    display: inline-block;
+.address{
+    display: inline;
     position: relative;
     margin: 0;
     padding: 0;
@@ -102,14 +106,7 @@ font-size: 0;
     padding-top: 4px;
     font-family: "Montserrat", sans-serif;
 }
-.col-md-4-contact-info {
-    display: inline-block;
-    text-align: center;
-    padding-left: 4px;
-    position: relative;
-   
-   
-}
+
 
 #nav {
     padding: 0;
@@ -120,11 +117,10 @@ font-size: 0;
 
 
 #about-us {
-      display: inline-block;
+      display: inline;
          position: relative;
     align-content: center;
-    width: 66%;
-}
+   
 
 #about-us h2 {
     padding-left: 25px;
@@ -140,8 +136,13 @@ font-size: 0;
    background-repeat: no-repeat;
    background-size: cover;
     min-height: 60px;
+}
     
 
-
+.pp-background {
+    background: url(..assets/background-building/pawsparlourbuilding.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 40%;
 }
-
