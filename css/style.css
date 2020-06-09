@@ -7,7 +7,7 @@
    display: inline;
 }
 
-.col-md-4-contact-info {
+.address {
     background-color: lavenderblush;
 }
 
@@ -94,17 +94,19 @@ font-size: 0;
     font-size: 24px;    
     font-weight: 400;
 }
-.address{
+#address{
     display: inline;
     position: relative;
     margin: 0;
-    padding: 0;
+    padding-top: 18px;
 }
 
-.address-info h3 {
+#address h3 p {
     text-align: center;
-    padding-top: 4px;
+    padding-top: 18px;
+    padding-left: 4px;
     font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 
@@ -117,16 +119,22 @@ font-size: 0;
 
 
 #about-us {
-      display: inline;
+      display: inline-block;
          position: relative;
     align-content: center;
+    margin: 10px 0 10px 0px;
+
+}
    
 
-#about-us h2 {
-    padding-left: 25px;
-    padding-top: 10px;
+#about-us p {
     text-align: center;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 24px;
+    padding-top: 20px;
+
 }
+
 
 /*...............................logo*/
 
@@ -139,10 +147,3 @@ font-size: 0;
 }
     
 
-.pp-background {
-    background: url(..assets/background-building/pawsparlourbuilding.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 40%;
-}
