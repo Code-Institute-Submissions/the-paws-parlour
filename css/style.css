@@ -1,13 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen:wght@700&display=swap');
 
 /*...............................colours*/
 
-.col-md-8 {
-   display: inline;
-}
 
-.address {
+
+#address {
     background-color: lavenderblush;
 }
 
@@ -17,7 +15,14 @@
 
 #name-nav {
 background-color:sandybrown;
+}
 
+.list-inline-item i {
+    color: #fafafa;
+}
+
+.menuitem span {
+    color: #fafafa;
 }
 
 /*...............................header*/
@@ -25,11 +30,13 @@ background-color:sandybrown;
 header {
     margin: 0;
    width: 100%;
+   padding: 0;
   
 }
 
-.col-md-4 logo {
+.col-md-3 logo {
     object-fit: cover;
+     contain: content;
 }
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -46,43 +53,33 @@ font-size: 0;
     text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
-    min-height: 160px;
+  
 }
 
 #name-nav h1 {
-    font-size: 120px;
+    font-size: 60px;
     text-align: center;
     font-weight: 600;
     font-family: "Oxygen", sans-serif; 
+    letter-spacing: 16px;
 }
 
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
-.menuitem {
-    height: 80px;
-    text-align: center;
-    padding: 0;
-}
 
-.list-inline-item i {
-    color: #fafafa;
-}
 
-.menucontainer span {
-    color: #fafafa;
-}
+
+
+
+
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    height: 80px;
+    height: 40px;
 }
 
 .menuitem a i {
-    padding-top: 48px;
+    padding-top: 18px;
     display: block;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .menuitem span {
@@ -91,7 +88,7 @@ font-size: 0;
     padding-top: 8px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 24px;    
+    font-size: 22px;    
     font-weight: 400;
 }
 #address{
@@ -99,10 +96,11 @@ font-size: 0;
     position: relative;
     margin: 0;
     padding-top: 18px;
+    
 }
 
 #address h3 p {
-    text-align: center;
+    text-align: left;
     padding-top: 18px;
     padding-left: 4px;
     font-family: "Montserrat", sans-serif;
@@ -143,7 +141,17 @@ font-size: 0;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-    min-height: 60px;
+  
+
 }
     
+/*...............................media queries*/
 
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
