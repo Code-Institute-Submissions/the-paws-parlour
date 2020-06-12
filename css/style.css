@@ -10,11 +10,11 @@
 }
 
 #nav  {
-    background-color:sandybrown;
+    background-color:rgb(5, 30, 107);
 }
 
 #name-nav {
-background-color:sandybrown;
+background-color:rgb(5, 30, 107);
 }
 
 .list-inline-item i {
@@ -23,6 +23,25 @@ background-color:sandybrown;
 
 .menuitem span {
     color: #fafafa;
+}
+/*...............................Special characteristics*/
+
+.content-divide {
+    width: 75%;
+    line-height: 14px;
+    height: 14px;
+    color: rgb(5, 30, 107);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/*...............................logo*/
+
+.logo  {
+    background: url(../assets/logo/pawsparlourlogo.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 /*...............................header*/
@@ -57,11 +76,12 @@ font-size: 0;
 }
 
 #name-nav h1 {
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     font-weight: 600;
     font-family: "Oxygen", sans-serif; 
     letter-spacing: 16px;
+    color: #fafafa;
 }
 
 
@@ -73,13 +93,13 @@ font-size: 0;
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    height: 40px;
+    height: 30px;
 }
 
 .menuitem a i {
-    padding-top: 18px;
+    padding-top: 8px;
     display: block;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .menuitem span {
@@ -88,16 +108,29 @@ font-size: 0;
     padding-top: 8px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 22px;    
+    font-size: 16px;    
     font-weight: 400;
 }
+
+
+/*...............................address*/
+
 #address{
    
-    position: relative;
+    position: sticky;
+    display: inline;
     margin: 0;
     padding-top: 18px;
     height: 100vw;
     
+}
+
+#address h3 {
+    text-align: left;
+    font-weight: 600;
+    font-family: "Oxygen", sans-serif; 
+    letter-spacing: 4px;
+    padding-bottom: 30px;
 }
 
 #address h3 p {
@@ -109,42 +142,32 @@ font-size: 0;
 }
 
 
-#nav {
-    padding: 0;
-    position: relative;
-    min-height: 80px; 
-    align-content: center;
-}
+/*...............................body content*/
 
-
-#about-us {
+#about-us  {
       display: inline-block;
          position: relative;
-    align-content: center;
-    margin: 10px 0 10px 0px;
-
+         margin: 0;
+         align-items: center;
+  
+   
 }
    
 
 #about-us p {
     text-align: center;
     font-family:  "Montserrat", sans-serif;
-    font-size: 24px;
-    padding-top: 20px;
+    font-size: 28px;
+    padding-top:20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+         align-content: center;
 
 }
 
 
-/*...............................logo*/
 
-.logo  {
-    background: url(../assets/logo/pawsparlourlogo.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-  
-
-}
 
 /*.................................Reviews*/
 
@@ -157,7 +180,7 @@ font-size: 0;
     margin: 5,5,5,5;
     display:inline-block;
     padding-top: 14px;
-    padding-left: 14px;
+    padding-left: 20px;
     text-align: center;
    
 
@@ -166,8 +189,16 @@ font-size: 0;
 #reviews p {
     font-size: 18px;
     font-family:  "Montserrat", sans-serif;
+    padding-left: 14px;
 }
     
+ #reviews p span {
+
+     font-size: 14px;
+     font-family: "Oxygen", sans-serif; 
+     font-style: bold; 
+     text-align: right;
+ }   
 /*...............................media queries*/
 
 @media(min-width: 992px) {
