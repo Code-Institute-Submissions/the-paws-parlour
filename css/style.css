@@ -28,6 +28,11 @@ footer { background-color:rgb(5, 30, 107); }
 .menuitem span {
     color: #fafafa;
 }
+
+.carousel-slide {
+    background-color: lightskyblue;
+   
+}
 /*...............................Special characteristics*/
 
 .content-divide {
@@ -215,9 +220,17 @@ font-size: 0;
 }
 
 /*...............................Carousel*/
+.carousel-slide {
+    display: inline;
+    padding: 5,5,5,5;
+    width: 100%;
+   
+}
 
 .carousel-inner {
-    max-width: 80%;
+    max-width: 50vw;
+      align-content: center;
+    
 }
 
 /*...............................media queries*/
