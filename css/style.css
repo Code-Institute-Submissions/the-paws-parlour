@@ -214,6 +214,12 @@ font-size: 0;
     height: 20px;
 }
 
+/*...............................Carousel*/
+
+.carousel-inner {
+    max-width: 80%;
+}
+
 /*...............................media queries*/
 
 @media(min-width: 992px) {
