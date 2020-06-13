@@ -228,9 +228,13 @@ font-size: 0;
 }
 
 .carousel-inner {
-    max-width: 50vw;
-      align-content: center;
+    max-height: 100vw;
     
+}
+
+.carousel-item {
+align-content: center;
+max-height: 100vw;
 }
 
 /*...............................media queries*/
@@ -255,3 +259,8 @@ font-size: 0;
         display: none;
     }
 }
+
+$('.carousel').carousel({
+  interval: 6000,
+  pause: "false"
+});
