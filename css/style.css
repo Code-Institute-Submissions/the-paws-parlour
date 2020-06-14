@@ -238,20 +238,60 @@ max-height: 100vw;
 }
 
 /*...............................contact form*/
+.form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-#form {
-    width: 60%;
-    margin: 10,10,10,10;
-    padding-left: 10px;
-    display:inline-block;
+.form label {
+    padding-left: 20px;
+    font-family: "Oxygen", sans-serif; 
+    font-size: 14px;
+}
 
+#input-text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#text-area {
+    display: inline-block;
 }
 
 .form-control {
     max-width: 70%;
-    align-items: center;
+ display: inline-block;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    align-content: center;
+   }
+
+#name{
+    width: 40%;
+    padding-left: 6px;
 }
 
+#email {
+    width: 40%;
+    padding-left: 6px;
+}
+
+#tel-no {
+    width: 40%;
+    padding-left: 6px;
+}
+.form-group {
+    margin: 0 auto;
+   align-content: center;
+}
+
+.form-group upload-img {
+    display: inline-block;
+}
+.btn btn-primary btn-lg {
+    display: inline-block;
+    float: right;
+}
 /*...............................media queries*/
 
 @media(min-width: 992px) {
