@@ -237,6 +237,21 @@ align-content: center;
 max-height: 100vw;
 }
 
+/*...............................contact form*/
+
+#form {
+    width: 60%;
+    margin: 10,10,10,10;
+    padding-left: 10px;
+    display:inline-block;
+
+}
+
+.form-control {
+    max-width: 70%;
+    align-items: center;
+}
+
 /*...............................media queries*/
 
 @media(min-width: 992px) {
