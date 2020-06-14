@@ -18,6 +18,9 @@
 background-color:rgb(5, 30, 107);
 }
 
+.btn {
+    background-color:rgb(5, 30, 107); 
+}
 footer { background-color:rgb(5, 30, 107); }
 
 
@@ -29,10 +32,7 @@ footer { background-color:rgb(5, 30, 107); }
     color: #fafafa;
 }
 
-.carousel-slide {
-    background-color: lightskyblue;
-   
-}
+
 /*...............................Special characteristics*/
 
 .content-divide {
@@ -219,22 +219,19 @@ font-size: 0;
     height: 20px;
 }
 
-/*...............................Carousel*/
-.carousel-slide {
-    display: inline;
-    padding: 5,5,5,5;
-    width: 100%;
+/*....................................gallery*/
+
+#gallery {
    
+   margin: 0 auto;
+   clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
 }
 
-.carousel-inner {
-    max-height: 100vw;
-    
-}
-
-.carousel-item {
-align-content: center;
-max-height: 100vw;
+#gallery img {
+    width: 100%;
 }
 
 /*...............................contact form*/
@@ -246,12 +243,12 @@ max-height: 100vw;
 .form label {
     padding-left: 20px;
     font-family: "Oxygen", sans-serif; 
-    font-size: 14px;
+    font-size: 18px;
 }
 
 #input-text {
     margin: 0 auto;
-    text-align: center;
+  text-align: center;
 }
 
 #text-area {
@@ -267,18 +264,22 @@ max-height: 100vw;
    }
 
 #name{
-    width: 40%;
+    width: 25%;
     padding-left: 6px;
+    padding-bottom: 6px;
 }
 
 #email {
-    width: 40%;
+    width: 25%;
     padding-left: 6px;
+     padding-bottom: 6px;
 }
 
 #tel-no {
-    width: 40%;
+    width: 15%;
     padding-left: 6px;
+     padding-bottom: 6px;
+     padding-top: 12px;
 }
 .form-group {
     margin: 0 auto;
@@ -288,6 +289,14 @@ max-height: 100vw;
 .form-group upload-img {
     display: inline-block;
 }
+
+#upload {
+    padding-left: 14px;
+}
+#upload-img {
+    padding-left: 30px;
+}
+
 .btn btn-primary btn-lg {
     display: inline-block;
     float: right;
