@@ -247,12 +247,15 @@ column-count: 5;
     width: 100%;
     padding: 0;}
 
+
+ /* hover:zoom function code from w3schools.com */
+
     .zoom:hover {
   transform: scale(1.4);
   border: 8px solid;
   border-color: rgb(5, 30, 107);
-   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+    }
+
 
 
 
@@ -277,7 +280,7 @@ column-count: 5;
     }
 
 #input-text {
-    margin: 0 auto;
+    margin:  auto;
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -386,5 +389,11 @@ column-count: 5;
 @media(max-width: 768px) {
     #upload-img {
         size: 50%;
+    }
+}
+
+@media(max-width: 768px) {
+    #name-nav {
+        size: 25%;
     }
 }
