@@ -144,7 +144,7 @@ font-size: 0;
    text-align: left;
     padding-top: 18px;
     padding-left: 4px;
-    
+    overflow-wrap: break-word;
     
 }
 
@@ -380,5 +380,11 @@ column-count: 5;
 @media(max-width: 768px) {
     #media img {
         display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    #upload-img {
+        size: 50%;
     }
 }
