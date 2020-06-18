@@ -124,6 +124,7 @@ font-size: 0;
     /* padding-left: 15px; */
     margin-right: auto;
     margin-left: auto;
+  
 }
 
 /*...............................address*/
@@ -195,26 +196,21 @@ font-size: 0;
 
 #reviews {
     padding: 6px;
-    text-align: justify;
+   position: relative;
+   text-align: justify;
    
      
 }
 
 .media {
-    padding-left: 10px;
-}
-#left {
-    float: left;
+    padding: 12px;
 }
 
-#right  {
-    float: right;
+.media img {
+    clear: right;
+    
 }
-#reviews div {
-    padding: 6px;
-    border: 0;
-    position: relative;
-}
+
 
 
 #reviews p {
